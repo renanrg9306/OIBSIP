@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(32, 32, 34); 
+}
+
+h1,h2,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 28px;
+    color: rgba(15, 15, 16, 0.88);
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(251, 223, 80);
+}
+
+.item-flex{
+    width: 20%;
+    flex-grow: 1;
+    position: relative;
+    
+
+}
+.item-flex:nth-child(2){
+    flex-grow: 2;
+}
+
+
+.nameheader{
+    position: absolute;
+    top: 25%;
+}
+.navbar{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a{
+    color: rgba(15, 15, 16, 0.88);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profilephoto{
+    width: 90%;
+    /* border-radius: 40%; */
+}
+
+.color{
+    background-color: rgb(30, 4, 89);
+}
+
+
+@media only screen and (min-width:360px) and (max-width:900px){
+    h1{
+        font-size: 12px;
+    }
+}
