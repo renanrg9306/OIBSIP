@@ -1,61 +1,97 @@
 body{
-    background-color: rgb(32, 32, 34); 
+    background-color:  rgb(255, 255, 255);
+    box-sizing: border-box;
 }
 
 h1,h2,h3,h4,h5{
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(3, 86, 87, 0.88);
 }
 
 h1{
-    font-size: 28px;
-    color: rgba(15, 15, 16, 0.88);
+    font-size: 20px;
+    
+}
+
+.mystory{
+    text-decoration: underline;
+    font-size: 13px;
+    color: rgba(3, 86, 87, 0.88);
+    
 }
 
 .container-flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 85%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(251, 223, 80);
+    
 }
+.cont1{
+    background-color:rgb(234, 251, 250);
+}
+
+.cont2{
+    background-color: rgb(130, 185, 181);
+}
+
 
 .item-flex{
     width: 20%;
     flex-grow: 1;
     position: relative;
-    
-
 }
-.item-flex:nth-child(2){
-    flex-grow: 2;
+.item-flex:nth-child(1){
+    flex-grow: 3;
 }
 
+.contenidoleftheader{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
 
 .nameheader{
+    left: 25%;
     position: absolute;
     top: 25%;
 }
 .navbar{
-    /* background-color: red; */
     display: flex;
+    margin-top: 10%;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 8px;
+    
 }
 
 a{
-    color: rgba(15, 15, 16, 0.88);
+    color: rgba(132, 201, 202, 0.88);
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.btn:hover{
+    color: rgba(3, 86, 87, 0.88);
+    
+}
+
+
+
 .profilephoto{
-    width: 90%;
-    /* border-radius: 40%; */
+    width: 40%;
+
+}
+
+.info{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 .color{
@@ -63,8 +99,54 @@ a{
 }
 
 
-@media only screen and (min-width:360px) and (max-width:900px){
+@media only screen and (min-width:300px) and (max-width:840px){
     h1{
-        font-size: 12px;
+        font-size: 7px;
     }
+    a{
+        font-size: 9px;
+    }
+
+    h2{
+        font-size: 8px;
+    }
+
+    h5{
+        font-size: 5px;
+    }
+
+    p{
+        font-size: 7px;
+    }
+
+    .mystory{
+        font-size: 8px;
+    }
+
+
+
+    /* .container-flex{
+        display: flex;
+        flex-direction: column;
+        
+    } */
+
+
+
 }
+
+/* @media only screen and (min-width:481px) and (max-width:840px){
+    h1{
+        font-size: px;
+    }
+    a{
+        font-size: 9px;
+    } */
+
+    /* .container-flex{
+        flex-direction: row;
+    } */
+
+
+
+/* } */
