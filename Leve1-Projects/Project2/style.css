@@ -26,7 +26,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     
@@ -36,9 +36,16 @@ h1{
 }
 
 .cont2{
-    background-color: rgb(130, 185, 181);
+    background-color: rgb(86, 173, 167);
 }
 
+.cont3{
+    background-color: rgb(141, 191, 189);
+}
+
+.margin{
+    margin-top: 10px;
+}
 
 .item-flex{
     width: 20%;
@@ -48,7 +55,13 @@ h1{
 .item-flex:nth-child(1){
     flex-grow: 3;
 }
+.item-flex-body{
+    width: 50%;
+}
 
+/* .item-flex-body:nth-child(1){
+    flex-grow:3;
+} */
 .contenidoleftheader{
     display: flex;
     flex-direction: row;
@@ -69,6 +82,33 @@ h1{
     
 }
 
+.email{
+    font-size: 17px;
+    color: rgb(3, 94, 127);
+}
+
+.number{
+    font-size: 40px;
+    color: rgb(7, 64, 31);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.expe{
+    font-size: 10px;
+    color: rgb(3, 94, 127);
+
+}
+
+.expepro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 a{
     color: rgba(132, 201, 202, 0.88);
     text-decoration: none;
@@ -76,12 +116,17 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.btn:hover{
-    color: rgba(3, 86, 87, 0.88);
-    
+.caja{
+    width: 20%;
+    height: 85px;
+    background-color:  rgb(144, 204, 200);
+    margin-left: 10px;
 }
 
-
+.btn:hover{
+    color: rgba(16, 162, 165, 0.88);
+    
+}
 
 .profilephoto{
     width: 40%;
@@ -89,10 +134,42 @@ a{
 }
 
 .info{
-    margin-top: 20%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
+ 
+    
 }
+
+.info2{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.halfbox{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+
+
+/* .text{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} */
+
+/* .infomargin{
+    margin-top: 10%;
+
+} */
 
 .color{
     background-color: rgb(30, 4, 89);
@@ -122,31 +199,5 @@ a{
     .mystory{
         font-size: 8px;
     }
-
-
-
-    /* .container-flex{
-        display: flex;
-        flex-direction: column;
-        
-    } */
-
-
-
 }
 
-/* @media only screen and (min-width:481px) and (max-width:840px){
-    h1{
-        font-size: px;
-    }
-    a{
-        font-size: 9px;
-    } */
-
-    /* .container-flex{
-        flex-direction: row;
-    } */
-
-
-
-/* } */
