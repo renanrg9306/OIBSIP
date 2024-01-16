@@ -15,11 +15,16 @@ h1{
     
 }
 
-.mystory{
+.link{
     text-decoration: underline;
     font-size: 13px;
-    color: rgba(3, 86, 87, 0.88);
+    color: rgba(5, 32, 65, 0.88);
+    font-weight: bold;
     
+}
+
+.link:hover{
+    color: rgb(43, 43, 195);
 }
 
 .container-flex{
@@ -32,7 +37,7 @@ h1{
     
 }
 .cont1{
-    background-color:rgb(234, 251, 250);
+    background-color:rgb(216, 235, 234);
 }
 
 .cont2{
@@ -59,9 +64,6 @@ h1{
     width: 50%;
 }
 
-/* .item-flex-body:nth-child(1){
-    flex-grow:3;
-} */
 .contenidoleftheader{
     display: flex;
     flex-direction: row;
@@ -124,21 +126,18 @@ a{
 }
 
 .btn:hover{
-    color: rgba(16, 162, 165, 0.88);
-    
+    color: rgba(16, 162, 165, 0.88);   
 }
 
 .profilephoto{
     width: 40%;
-
 }
 
 .info{
     margin-top: 5%;
     display: flex;
     flex-direction: column;
- 
-    
+  
 }
 
 .info2{
@@ -156,26 +155,39 @@ a{
    
 }
 
-
-
-/* .text{
-    margin-top: 5%;
+.column{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+   
     
-} */
+}
 
-/* .infomargin{
-    margin-top: 10%;
+.imgsize{
+    width: 145%;
 
-} */
+}
+
+.column-content{
+    width: 50%;
+}
 
 .color{
     background-color: rgb(30, 4, 89);
 }
 
+input[type=text]{
+    width: 100%;
+    border: none;
+    background-color: rgb(86, 173, 167);
+    /* border-bottom:  */
 
+
+    
+}
 @media only screen and (min-width:300px) and (max-width:840px){
     h1{
         font-size: 7px;
