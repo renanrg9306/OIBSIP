@@ -10,6 +10,10 @@ h1,h2,h3,h4,h5{
     color: rgba(3, 86, 87, 0.88);
 }
 
+p{
+    text-align: justify;
+}
+
 h1{
     font-size: 20px;
     
@@ -183,10 +187,12 @@ input[type=text]{
     width: 100%;
     border: none;
     background-color: rgb(86, 173, 167);
-    /* border-bottom:  */
+    border-bottom: 2px solid rgb(3, 94, 127);
+   
+}
 
-
-    
+.icon{
+    display: block;
 }
 @media only screen and (min-width:300px) and (max-width:840px){
     h1{
