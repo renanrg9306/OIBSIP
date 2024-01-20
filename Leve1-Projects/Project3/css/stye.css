@@ -1,0 +1,129 @@
+/*GLOBALES*/
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.display-inlineb{
+    display: inline-block;
+}
+
+.diplay-block{
+    display: block;
+}
+
+
+.cContentmain{/*Contenido Centrado*/
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.cContenidosecond{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.cContent-child-dist{
+    width: 33.33%;
+}
+
+.cContent-child-data{
+    width: 50%;
+}
+
+/* .cContent-child-result{
+    width: 100%;
+} */
+
+
+.centrar{ /*Main axis and cross axis centrado*/
+    justify-content: center;
+    align-items: center;
+}
+
+.centrar2 {
+    align-content: center;
+}
+
+.flex-row{ /*flex direction row*/
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.pJustify{
+    text-align: justify;
+}
+
+.pCenter{
+    text-align: center;
+}
+
+.space-eve{
+    justify-content: space-evenly;
+}
+
+/*TIPOGRAFIA*/
+h1,h1,h3,h4,h5,p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.tg-primary{
+    color:rgb(240, 124, 9);
+    font-weight: bolder;
+}
+
+.marginl{
+    margin-left: 20px;
+}
+
+.marginr{
+    margin-right: 20px;
+}
+
+.margint{
+    margin-top: 5%;
+}
+
+.marginb{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 50%
+}
+
+.color-primario{
+    background-color: rgba(0, 42, 102, 0.688); 
+}
+
+.color-secundario{
+    background-color: rgba(36, 73, 73, 0.043); 
+
+}
+
+
+/*Forms*/
+input,select{
+    border:1px solid #ccc;
+    background-color: #ecf0f1;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn{
+    padding: 10px;
+    background-color: rgb(224, 134, 9);
+}

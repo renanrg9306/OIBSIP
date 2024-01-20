@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempeture Converter</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stye.css">
+   
+</head>
+<body>
+    <header class="cContentmain flex-row color-primario">
+        <div class="cContent-child-dist flex-row centrar">
+            <div class="flex-row centrar">
+                <img src="img/c-f.jpg" alt="">
+            </div>
+            
+        </div>
+        
+        <div class="cContent-child-dist flex-row centrar">
+            <div class="flex-row">
+                <h3>Temperature Converter</h3>
+            </div>
+            
+        </div>
+       
+        <div class="cContent-child-dist flex-row centrar">
+            <img src="img/f-c.png" alt="">
+        </div>
+    </header>
+
+    <section class="cContenidosecond color-secundario">
+     <div class="flex-row">
+            <div class="cContent-child-data flex-column centrar margint">
+                <label for="degrees" class="tg-primary">Degrees</label>
+                <p><input type="text" name="degrees" id="degrees"></p>
+            </div>
+
+            <div class="cContent-child-data flex-column centrar margint">
+                <label for="temptype" class="tg-primary">Type</label>
+                <p><select name="temptype" id="temptype">
+                    <option value="celsius">Fahrenheit to Celsius </option>
+                    <option value="farhenheit">Celsius to Farhenheit</option>
+                    <option value="celsiustokelvin">Celsius to Kelvin</option>
+                    <option value="farhenheittokelvin">Farhenheit to Kelvin</option>
+                </select></p>
+            </div>
+        </div>
+
+    <div class="flex-row space-eve">
+            <div class="flex-column centrar">
+                <label for="temp" class="tg-primary">Result</label>
+                <p><input type="text" name="temp" id="temp"></p>
+            </div> 
+    </div>
+
+    <div class="flex-row space-eve">
+        <div class="flex-column centrar">
+            <button class="btn" id="btnCalcular">Calcular</button>
+        </div> 
+</div>
+       
+    </div>       
+    </section>
+</body>
+<script src="js/cal.js"></script>
+</html>
